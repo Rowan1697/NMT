@@ -1,0 +1,8 @@
+translate.py -m "../../model/model" -i "../../data/test/test.clean.en" -o "../../data/test/test.clean.en.model.output.dev" -k 12 -n 0.6 -b 10
+git clone
+python3.7 -m virtualenv env
+source env/bin/activate
+cd nematus/
+python setup.py install
+cd nematus/nematus 
+python server.py
