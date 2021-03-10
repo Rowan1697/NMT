@@ -7,10 +7,12 @@ CacheControl==0.12.6
 cached-property==1.5.2
 certifi==2019.11.28
 chardet==3.0.4
+click==7.1.2
 colorama==0.4.3
 contextlib2==0.6.0
 distlib==0.3.0
 distro==1.4.0
+Flask==1.1.2
 gast==0.2.2
 google-pasta==0.2.0
 grpcio==1.35.0
@@ -19,10 +21,13 @@ html5lib==1.0.1
 idna==2.8
 importlib-metadata==3.4.0
 ipaddr==2.2.0
+itsdangerous==1.1.0
+Jinja2==2.11.3
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.2
 lockfile==0.12.2
 Markdown==3.3.3
+MarkupSafe==1.1.1
 msgpack==0.6.2
 numpy==1.16.0
 opt-einsum==3.3.0
@@ -46,3 +51,4 @@ webencodings==0.5.1
 Werkzeug==1.0.1
 wrapt==1.12.1
 zipp==3.4.0
+gunicorn

@@ -1,6 +1,7 @@
 *.pyc
 build
 dist
-nmt.egg-info
+nematus.egg-info
 .idea
 .DS_Store
+__pycache__

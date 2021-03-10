@@ -23,6 +23,7 @@ nematus/sampler_inputs.py
 nematus/sampling_utils.py
 nematus/score.py
 nematus/server.py
+nematus/server_flask.py
 nematus/server_translator.py
 nematus/settings.py
 nematus/shuffle.py

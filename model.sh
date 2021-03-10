@@ -13,4 +13,4 @@ gdown https://drive.google.com/uc?id=1TFbXFSUhGTb9aopgssM6Hn86Cyoh-38K
 
 cd ..
 cd nematus
-python setup.py
+python setup.py install
