@@ -129,12 +129,12 @@ def predict():
         
     try:
         json_ = request.json
-        print(json_)
+        # print(json_)
         return jsonify({'translation':server.translate(json_['segments'])})
 
-    except:
-        print(json_)
-        return jsonify({'trace': 'error'})
+    except Exception as e:
+        # print(json_)
+        return jsonify({'trace': e})
 
 
 
@@ -143,4 +143,4 @@ server = NematusServer(server_settings)
 if __name__ == '__main__':
 
     port = 5000 # If you don't provide any port the port will be set to 1234
-    app.run(host="0.0.0.0", port=port, debug=True)
+    app.run(host="localhost", port=port, debug=True)
