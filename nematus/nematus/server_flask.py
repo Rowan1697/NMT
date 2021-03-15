@@ -143,4 +143,4 @@ server = NematusServer(server_settings)
 if __name__ == '__main__':
 
     port = 5000 # If you don't provide any port the port will be set to 1234
-    app.run(host="localhost", port=port, debug=True)
+    app.run(host="0.0.0.0", port=port, debug=True)
