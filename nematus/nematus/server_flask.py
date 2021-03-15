@@ -130,8 +130,7 @@ def predict():
     try:
         json_ = request.json
         # print(json_)
-        l = [0]
-        print(l[3])
+    
         return jsonify({'translation':server.translate(json_['segments'])})
 
     except Exception as e:
